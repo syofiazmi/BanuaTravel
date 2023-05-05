@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./navbar.css";
 import { MdHouseboat } from "react-icons/md";
 import { AiFillCloseCircle } from "react-icons/ai";
@@ -38,12 +38,6 @@ const Navbar = () => {
 
             <li className="navItem">
               <a href="#" className="navLink">
-                About
-              </a>
-            </li>
-
-            <li className="navItem">
-              <a href="#" className="navLink">
                 Packages
               </a>
             </li>
@@ -63,6 +57,12 @@ const Navbar = () => {
             <li className="navItem">
               <a href="#" className="navLink">
                 News
+              </a>
+            </li>
+
+            <li className="navItem">
+              <a href="#" className="navLink">
+                About
               </a>
             </li>
 
